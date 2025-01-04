@@ -1,0 +1,198 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #111;
+    color: #fff;
+}
+
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+    height: 55px;
+    width: 55px;
+}
+
+.nav-link {
+    color: #ddd;
+    margin-left: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #0dcaf0;
+}
+
+#navbarNav button {
+    background-color: aqua;
+
+}
+
+.hero {
+    text-align: left;
+    color: #0bb8de;
+    padding: 2rem 1rem;
+    background-color: black;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: aqua;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #fff;
+    text-align: left;
+}
+
+.hero img{
+        width: 80%;
+        height: auto;
+        max-width: 500px;
+      }
+
+  .hero i{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    background-color: #007bff; 
+    color: white;
+    text-decoration: none;
+    margin: 5px; 
+  }
+
+.btn-custom {
+    background-color: #0dcaf0;
+    color: #000;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #0bb8de;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+    padding: 4rem 1rem;
+}
+
+.portfolio-section h2 {
+    color: #0dcaf0;
+    margin-bottom: 2rem;
+}
+
+.card {
+    background-color: #222;
+    border: none;
+}
+
+.card-title {
+    color: #0dcaf0;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    color: #ccc;
+    margin-bottom: 1rem;
+}
+.card-body ul{
+    color: white;
+}
+.card img a{
+    color: #000;
+}
+
+.card button{
+    border-radius: 10px;
+    background-color: #ddd;
+}
+
+.badge {
+    margin-right: 0.5rem;
+}
+
+/* Skills Section */
+#skills h5 {
+    color: #0dcaf0;
+    margin-bottom: 0.5rem;
+}
+
+
+/* Education Section */
+#Education h2{
+    color: #0dcaf0;
+    margin-bottom: 0.5rem;
+}
+
+.education-section .row p {
+    text-align: center;
+  }
+
+
+/* Contact Section */
+
+
+
+
+#contact {
+    background-color: #222;
+    padding: 4rem 1rem;
+    width: 100%;
+    
+}
+
+#contact h2 {
+    color: #0dcaf0;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+
+.form-control {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #444;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+.form-control:focus {
+    border-color: #0dcaf0;
+    box-shadow: none;
+}
+
+.c-form{
+    width: 60%;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #000;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #0dcaf0;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
